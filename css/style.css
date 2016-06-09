@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: center;
   font-family: 'Orbitron', sans-serif;
-  text-shadow: 1px 1px 1px #000; 
+  text-shadow: 1px 1px 1px #000;
 }
 
 #profile {
@@ -30,10 +30,6 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-}
-
-body {
-  padding-top: 50px;
 }
 
 .center {
