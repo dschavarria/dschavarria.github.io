@@ -1,71 +1,89 @@
 <!DOCTYPE html>
-<html >
-   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="Daniel S. Chavarria">
-    <!--<link rel="icon" href="../../favicon.ico"> -->
+<html>
 
-    <title>Daniel S. Chavarria | BS IT - Software | OCA Java SE 7 Programmer | CIW Web Development Professional</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">   
-  </head>
-  
-  <body role="document">
-    <nav class="navbar navbar-default">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="Daniel S. Chavarria">
+  <!--<link rel="icon" href="../../favicon.ico"> -->
+  <title>Daniel S. Chavarria | BS IT - Software | OCA Java SE 7 Programmer | CIW Web Development Professional</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body role="document">
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse navbar-collapse">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Daniel S. Chavarria</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" href="#">DC</a>
         </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#intro">Intro</a></li>
-          <li><a href="#profile">Profile</a></li> 
-          <li><a href="#portfolio">Portfolio</a></li> 
-          <li><a href="#contact">Contact</a></li> 
-        </ul>
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="#intro" data-toggle="collapse" data-target="#navbar">Intro</a></li>
+            <li><a href="#profile" data-toggle="collapse" data-target="#navbar">Profile</a></li>
+            <li><a href="#portfolio" data-toggle="collapse" data-target="#navbar">Portfolio</a></li>
+            <li><a href="#contact" data-toggle="collapse" data-target="#navbar">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="container-fluid intro" id="intro" style="height: 100vh;">
-      <div class="row m-3-a">
-        <div class="centered-block">
-          <h1>Daniel S. Chavarria<br/><small style="color:white;">BS IT - Software | OCA Java SE 7 Programmer | CIW Web Development Professional</small></h1> 
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid profile" id="profile" style="height: 100vh;">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
-          <h2>About me</h2>
+
+    <div class="row intro" id="intro" style="height: 100vh;">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4 center">  
+           <h1>Daniel S. Chavarria<br/><small style="color:white;">BS IT - Software | OCA Java SE 7 Programmer | CIW Web Development Professional</small></h1>
         </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-2"></div>
-      </div>
-    </div>
-    <div class="container-fluid portfolio" id="portfolio" style="height: 100vh;">
-      <div class="row">
-        <div class="col-md-2" style="color:white;">
-          <h2>My Work</h2>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid contact" id="contact" style="height: 100vh;">
-      <div class="row">
-        <div class="" style="color:white;">
-          <h1>Contact Us</h1>
-        </div>
+      <div class="col-sm-4"></div>
       </div>
     </div>
-
-    <!-- Bootstrap core JavaScript
+    <div class="row profile" id="profile" style="height: 100vh;">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4" style="background-color:white;height: 50vh;">
+        <h2>About me</h2>
+        <p>
+          I'm a recent college graduate. I like learning about all things technology. I also enjoy biohacking my physiology to get to try and achieve the maximum level of health wellness I can achieve. I currently work in IT - End User Services. I am an aspiring
+          programmer and am currenly focused on web development and cross-platform development with a keen interest in the Ionic Framework.
+        </p>
+      </div>
+      <div class="col-sm-4">
+      <img class="img" src="https://en.gravatar.com/userimage/51078308/dc011a2414c2942f9c1e8a5976a2676b.png?size=500" alt="My Picture" style="height: 50vh;">
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+    <div class="row portfolio" id="portfolio" style="height: 100vh;">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4">
+        <h2>My Work</h2>
+      </div>
+      <div class="col-sm-4"></div>
+      <div class="col-sm-2"></div>
+    </div>
+    <div class="row contact" id="contact" style="height: 100vh;">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="col-sm-4"></div>
+      <div class="col-sm-2"></div>
+    </div>
+  </div>
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
 </html>
