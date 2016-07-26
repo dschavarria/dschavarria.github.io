@@ -1,0 +1,80 @@
+body {
+  background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/textured_stripes.png');
+  font-family: "Passion One", cursive !important;
+  font-size: 16px;
+}
+
+button {
+  font-size: 1em !important;
+}
+
+.nav,
+.navbar {
+  color: white !important;
+  border-radius: 0px !important;
+  background: black;
+}
+
+a {
+  color: white !important;
+  font-size: 1.3em;
+}
+
+.vcenter {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  float: none !important;
+}
+
+.jumbotron {
+  border-radius: 100px 5px !important;
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png');
+}
+div{
+  color: white;
+  text-shadow: 2px 2px 0px black
+}
+h1 {
+  color: white !important;
+  font-family: Molle, cursive !important;
+  font-size: 4em !important;
+  text-shadow: 5px 5px 5px #000;
+}
+
+h1 + p {
+  color: black !important;
+  font-size: 2em !important;
+  text-shadow: 0px 0px 7px #fff;
+}
+
+h2 {
+  font-family: Molle, cursive !important;
+  font-size: 5em;
+  text-shadow: 4px 4px 5px #808080;
+  color: black !important;
+}
+
+img {
+  -webkit-box-shadow: 0 0 5px 2px #000000 !important;
+  box-shadow: 0 0 5px 2px #000000 !important;
+}
+
+.education{
+border-radius: 100px 5px;
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png');
+}
+.certifications{
+  margin-top: 30px;
+border-radius: 100px 5px;
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png');
+}
+.portfolio{
+  margin-top: 30px;
+border-radius: 100px 5px;
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png');
+}
+.contact{
+  margin-top: 30px;
+border-radius: 100px 5px;
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png');
+}
