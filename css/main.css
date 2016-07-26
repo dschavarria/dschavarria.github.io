@@ -1,59 +1,55 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   #intro {
-     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://static.pexels.com/photos/7071/space-desk-office-workspace.jpg');
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-     background-position: center;
-     font-family: 'Orbitron', sans-serif;
-     text-shadow: 1px 1px 1px #000;
-   }
 
-   .intro h1 {
-     color: white;
-   }
-   #profile {
-     background-image: url('https://farm8.staticflickr.com/7504/16258492451_3a097a932a_k.jpg');
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-     background-position: center;
-   }
+body {
+  background-image: url("../assets/textured_stripes.png");
+  font-family: "Passion One", cursive !important;
+  font-size: 16px;
+}
 
-   #portfolio {
-     background-image: url('https://pixabay.com/static/uploads/photo/2014/04/05/11/08/easel-314650_960_720.jpg');
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-     background-position: center;
-   }
+button {
+  font-size: 1em !important;
+}
 
-   #contact {
-     background-image: url('https://farm3.staticflickr.com/2579/4162572412_4e971c8ab3_b.jpg');
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-     background-position: center;
-   }
+.nav,
+.navbar {
+  color: white !important;
+  border-radius: 0px !important;
+  background: black;
+}
 
-   body {
-     padding-top: 50px;
-   }
+a {
+  color: white !important;
+  font-size: 1.3em;
+}
 
-   .center {
-     position: absolute;
-     left: 0;
-     top: 50%;
-     width: 100%;
-     text-align: center;
-     font-size: 18px;
-   }
+.jumbotron {
+  border-radius: 100px 5px !important;
+  background: url("../assets/grey_wash_wall.png");
+}
 
-   .vertical-align {
-     display: -webkit-flex;
-     display: -ms-flexbox;
-     display: flex;
-     align-items: center;
-   }
+h1 {
+  color: white !important;
+  font-family: Molle, cursive !important;
+  font-size: 4em !important;
+  text-shadow: 5px 5px 5px #000;
+}
+
+h1+ p {
+  color: black !important;
+  font-size: 2em !important;
+  text-shadow: 0px 0px 7px #fff;
+}
+
+h2 {
+  font-family: Molle, cursive !important;
+  font-size: 5em;
+  text-shadow: 4px 4px 5px #808080;
+  color: black !important;
+}
+
+img {
+  -webkit-box-shadow: 0 0 5px 2px #000000 !important;
+  box-shadow: 0 0 5px 2px #000000 !important;
+}
